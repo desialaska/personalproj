@@ -1,0 +1,168 @@
+/* Reset basic styles to avoid inconsistencies across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Hero section styling */
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e0f7fa;
+    color: #00695c;
+}
+
+#hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#333;
+}
+
+#hero p {
+    font-size: 1.2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Section headings */
+h2 {
+    font-size: 2em;
+    color: midnightblue;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* About me section styling */
+#about {
+    padding: 30px 20px;
+    background-color: lavender;
+    color: #880e4f;
+    text-align: center;
+}
+
+/* Blog section styling */
+#blog {
+    padding: 30px 20px;
+    background-color: lightseagreen;
+    color: papayawhip;
+    text-align: center;
+}
+
+#blog a {
+    color: khaki;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#blog a:hover {
+    text-decoration: underline;
+}
+
+/* Resume section styling */
+#resume {
+    padding: 30px 20px;
+    background-color: #f3e5f5;
+    color: #6a1b9a;
+    text-align: center;
+}
+
+#resume h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#resume ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#resume li {
+    margin-bottom: 10px;
+}
+
+/* Projects section styling */
+#projects {
+    padding: 30px 20px;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    text-align: center;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#projects li {
+    margin-bottom: 10px;
+}
+
+#projects a {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+/* Contact section styling */
+#contact {
+    padding: 30px 20px;
+    background-color: #fff3e0;
+    color: #ef6c00;
+    text-align: center;
+}
+
+#contact a {
+    color: #ef6c00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Link styling */
+a {
+    color: #00695c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styling for body and list items */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1.1em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    #hero, #about, #blog, #resume, #projects, #contact {
+        padding: 20px 10px;
+    }
+}
